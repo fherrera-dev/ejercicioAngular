@@ -8,6 +8,7 @@ import { AboutComponent } from './components/about/about.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { HeroeComponent } from './components/heroe/heroe.component';
 import { BuscadorComponent } from './components/buscador/buscador.component';
+import { PersonasComponent } from './components/personas/personas.component';
 
 
 const routes:Routes=[
@@ -17,6 +18,7 @@ const routes:Routes=[
   {path:'Heroe',component:HeroeComponent},
   {path:'Busqueda',component:BuscadorComponent},
   {path:'Heroe/:index',component:HeroeComponent},
+  {path:'Personas',component:PersonasComponent},
   {path:'buscar/:termino',component:BuscadorComponent},
   {path:'**',pathMatch:'full',redirectTo:'home'}
 

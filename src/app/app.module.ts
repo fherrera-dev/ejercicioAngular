@@ -20,6 +20,7 @@ import { BuscadorComponent } from './components/buscador/buscador.component';
 import { HeroeTarjetaComponent } from './components/heroe-tarjeta/heroe-tarjeta.component';
 import { HttpClientModule } from "@angular/common/http";
 import { FooterComponent } from './components/footer/footer.component';
+import { PersonasComponent } from './components/personas/personas.component';
 
 
 
@@ -33,7 +34,8 @@ import { FooterComponent } from './components/footer/footer.component';
     HeroeComponent,
     BuscadorComponent,
     HeroeTarjetaComponent,
-    FooterComponent
+    FooterComponent,
+    PersonasComponent
   ],
   imports: [
     BrowserModule,

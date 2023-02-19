@@ -1,0 +1,33 @@
+<h1 class="text-center">LISTA DE PERSONAS</h1>
+
+
+<div class="container">
+    
+    <hr>
+  
+            <div class="card-columns">
+                <div class="card animated fadein fast" *ngFor="let item of Personas">
+                    <div class="cardImg"><img [src]="item.picture['medium']" alt="" class="card-img-top img-fluid"></div>    
+                    
+                    <div class="card-body">
+                        <h6 class="card-tittle"><i class="fa-brands fa-spotify"></i>{{item.name['title']}}. {{item.name['last']}}  {{item.name['first']}} </h6>
+                        <p class="card-text">Edad: {{item.dob['age']}} </p>
+                        <div class="section">
+                            <div class="">
+                                <p class="card-text"><small class="text-muted">Email: {{item.email}} </small></p>
+                            </div>
+                            <div class="">
+                                <p class="card-text"><small class="text-muted">Phone: {{item.phone}}</small> </p>
+                            </div>
+                            
+                        </div>
+                        
+                        <!-- <a href="#" class="btn btn-success"> <i class="fa-solid fa-play"></i>&nbsp; Listen the song</a> -->
+                    </div>
+                </div>
+            </div>
+
+
+
+
+</div>

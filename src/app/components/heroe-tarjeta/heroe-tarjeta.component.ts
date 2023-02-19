@@ -24,6 +24,7 @@ export class HeroeTarjetaComponent implements OnInit {
     console.log(  this.index );
     this.router.navigate( ['Heroe', this.index] );
     console.log(this.heroe);
+    console.log("este es el que lo manda");
     
     this.heroeSeleccionado.emit( this.index );
   }
