@@ -16,6 +16,8 @@ const routes:Routes=[
   {path:'Heroes',component:HeroesComponent},
   {path:'Heroe',component:HeroeComponent},
   {path:'Busqueda',component:BuscadorComponent},
+  {path:'Heroe/:index',component:HeroeComponent},
+  {path:'buscar/:termino',component:BuscadorComponent},
   {path:'**',pathMatch:'full',redirectTo:'home'}
 
 

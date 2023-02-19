@@ -21,9 +21,11 @@ export class HeroeTarjetaComponent implements OnInit {
   }
 
   verHeroe() {
-    // console.log(  this.index );
-    this.router.navigate( ['/', this.index] );
-    // this.heroeSeleccionado.emit( this.index );
+    console.log(  this.index );
+    this.router.navigate( ['Heroe', this.index] );
+    console.log(this.heroe);
+    
+    this.heroeSeleccionado.emit( this.index );
   }
 
 }

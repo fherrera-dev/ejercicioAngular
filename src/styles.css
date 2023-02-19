@@ -11,9 +11,17 @@ body{
 }
 
 nav{
-  margin-bottom: 70px;
+  margin-bottom: 70px !important;
 }
 
+nav{
+  background-color: rgb(95, 8, 8) !important;
+  
+}
+
+h1{
+  margin-top: 60px !important;
+}
 
 /* Animaciones */
 .animated {
@@ -42,4 +50,16 @@ nav{
 
 .fadeIn {
   animation-name: fadeIn;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(95, 8, 8);
+  color:#fff;
+  text-align: center;
+  
 }

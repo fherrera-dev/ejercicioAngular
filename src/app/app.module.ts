@@ -19,6 +19,7 @@ import { HeroeComponent } from './components/heroe/heroe.component';
 import { BuscadorComponent } from './components/buscador/buscador.component';
 import { HeroeTarjetaComponent } from './components/heroe-tarjeta/heroe-tarjeta.component';
 import { HttpClientModule } from "@angular/common/http";
+import { FooterComponent } from './components/footer/footer.component';
 
 
 
@@ -31,7 +32,8 @@ import { HttpClientModule } from "@angular/common/http";
     HeroesComponent,
     HeroeComponent,
     BuscadorComponent,
-    HeroeTarjetaComponent
+    HeroeTarjetaComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
